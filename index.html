@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryce Jensen | BSU Esports Broadcaster</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        broncoBlue: '#0033A0',
+                        broncoOrange: '#D64309',
+                        darkBg: '#0f172a',
+                        cardBg: '#1e293b'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-darkBg text-gray-200 font-sans antialiased scroll-smooth">
+
+    <nav class="bg-broncoBlue px-6 py-4 shadow-xl sticky top-0 z-50 border-b-4 border-broncoOrange">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-2xl font-black text-white tracking-widest mb-4 md:mb-0 uppercase">
+                <span class="text-broncoOrange">Bryce</span> Jensen
+            </h1>
+            <ul class="flex space-x-6 text-sm md:text-base font-semibold text-white">
+                <li><a href="#clips" class="hover:text-broncoOrange transition duration-200">Clips</a></li>
+                <li><a href="#stats" class="hover:text-broncoOrange transition duration-200">Roster Stats</a></li>
+                <li><a href="#games" class="hover:text-broncoOrange transition duration-200">The Games</a></li>
+                <li><a href="#writeups" class="hover:text-broncoOrange transition duration-200">Recaps</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="container mx-auto mt-16 px-4 text-center">
+        <div class="inline-block bg-broncoOrange text-white font-bold px-4 py-1 rounded-full mb-4 text-sm tracking-wide shadow-lg">
+            Official BSU Esports Broadcast Hub
+        </div>
+        <h2 class="text-5xl md:text-6xl font-extrabold mb-6 text-white">
+            Voice of the <span class="text-broncoOrange">Broncos</span>
+        </h2>
+        <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-10 leading-relaxed">
+            Welcome! I'm Bryce Jensen. This is your premier destination for Boise State Esports highlights, player statistics, game guides, and weekly post-match analysis.
+        </p>
+        <a href="https://www.twitch.tv/boisestate/schedule" target="_blank" rel="noopener noreferrer" class="bg-purple-600 hover:bg-purple-500 text-white font-bold py-4 px-8 rounded-lg shadow-lg transition duration-300 inline-flex items-center gap-3 text-lg">
+            <i class="fa-brands fa-twitch text-2xl"></i> Live Twitch Schedule
+        </a>
+    </header>
+
+    <hr class="border-gray-700 my-16 w-1/2 mx-auto">
+
+    <section id="clips" class="container mx-auto px-4 mb-20 pt-10">
+        <div class="flex items-center gap-3 mb-8">
+            <i class="fa-solid fa-video text-3xl text-broncoOrange"></i>
+            <h3 class="text-4xl font-bold text-white">Broadcast Highlights</h3>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-cardBg rounded-xl overflow-hidden shadow-2xl border border-gray-700 hover:border-broncoBlue transition duration-300">
+                <div class="aspect-video w-full bg-black relative">
+                    <iframe src="" class="absolute top-0 left-0 w-full h-full" frameborder="0" allowfullscreen title="Twitch Clip"></iframe>
+                    <div class="absolute inset-0 flex items-center justify-center text-gray-600 z-0 pointer-events-none">
+                        Add embed link to src=""
+                    </div>
+                </div>
+                <div class="p-5">
+                    <h4 class="font-bold text-xl text-white mb-1">Insane Valorant Clutch</h4>
+                    <p class="text-sm text-broncoOrange font-semibold mb-2">Valorant Roster</p>
+                    <p class="text-gray-400 text-sm">A massive 1v3 defense hold to secure the map win.</p>
+                </div>
+            </div>
+
+            <div class="bg-cardBg rounded-xl overflow-hidden shadow-2xl border border-gray-700 hover:border-broncoBlue transition duration-300">
+                <div class="aspect-video w-full bg-black relative">
+                    <iframe src="" class="absolute top-0 left-0 w-full h-full" frameborder="0" allowfullscreen title="Twitch Clip"></iframe>
+                    <div class="absolute inset-0 flex items-center justify-center text-gray-600 z-0 pointer-events-none">
+                        Add embed link to src=""
+                    </div>
+                </div>
+                <div class="p-5">
+                    <h4 class="font-bold text-xl text-white mb-1">Zero-Second Equalizer</h4>
+                    <p class="text-sm text-broncoOrange font-semibold mb-2">Rocket League</p>
+                    <p class="text-gray-400 text-sm">Keeping the ball up to force overtime in the finals.</p>
+                </div>
+            </div>
+
+            <div class="bg-cardBg rounded-xl overflow-hidden shadow-2xl border border-gray-700 hover:border-broncoBlue transition duration-300">
+                <div class="aspect-video w-full bg-black relative">
+                    <iframe src="" class="absolute top-0 left-0 w-full h-full" frameborder="0" allowfullscreen title="Twitch Clip"></iframe>
+                    <div class="absolute inset-0 flex items-center justify-center text-gray-600 z-0 pointer-events-none">
+                        Add embed link to src=""
+                    </div>
+                </div>
+                <div class="p-5">
+                    <h4 class="font-bold text-xl text-white mb-1">Perfect Ultimate Combo</h4>
+                    <p class="text-sm text-broncoOrange font-semibold mb-2">Overwatch 2</p>
+                    <p class="text-gray-400 text-sm">A textbook team wipe to push the payload to the end.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stats" class="bg-black py-20 border-y border-gray-800 pt-10">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center gap-3 mb-8">
+                <i class="fa-solid fa-chart-simple text-3xl text-broncoBlue"></i>
+                <h3 class="text-4xl font-bold text-white">Current Roster Stats</h3>
+            </div>
+            <div class="bg-cardBg rounded-xl shadow-2xl overflow-x-auto border border-gray-700">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-broncoBlue text-white text-lg">
+                            <th class="p-4 font-bold border-b-2 border-broncoOrange">Player</th>
+                            <th class="p-4 font-bold border-b-2 border-broncoOrange">Game</th>
+                            <th class="p-4 font-bold border-b-2 border-broncoOrange">Role</th>
+                            <th class="p-4 font-bold border-b-2 border-broncoOrange text-right">Key Stat</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-300 divide-y divide-gray-700">
+                        <tr class="hover:bg-gray-800 transition">
+                            <td class="p-4 font-semibold text-white">Marshall Hainer</td>
+                            <td class="p-4">Valorant</td>
+                            <td class="p-4">Flex</td>
+                            <td class="p-4 text-right text-broncoOrange font-mono font-bold">1.24 KD</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800 transition">
+                            <td class="p-4 font-semibold text-white">Preston "PRSTN" Ferrante</td>
+                            <td class="p-4">Rocket League</td>
+                            <td class="p-4">Striker</td>
+                            <td class="p-4 text-right text-broncoOrange font-mono font-bold">3.2 G/GM</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800 transition">
+                            <td class="p-4 font-semibold text-white">Carter "Lyric" Jones</td>
+                            <td class="p-4">Overwatch 2</td>
+                            <td class="p-4">Support</td>
+                            <td class="p-4 text-right text-broncoOrange font-mono font-bold">12k H/10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="games" class="container mx-auto px-4 my-20 pt-10">
+        <div class="flex items-center gap-3 mb-8">
+            <i class="fa-solid fa-gamepad text-3xl text-broncoOrange"></i>
+            <h3 class="text-4xl font-bold text-white">Esports 101</h3>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-cardBg p-8 rounded-xl border-t-4 border-broncoOrange shadow-xl hover:-translate-y-1 transition transform duration-300">
+                <h4 class="text-2xl font-bold mb-3 text-white">Rocket League</h4>
+                <p class="text-gray-400 leading-relaxed">"Soccer with rocket-powered cars." Two teams of three fly across the arena trying to hit a massive ball into the opposing net. It's fast-paced, highly mechanical, and entirely physics-based. A true crowd favorite.</p>
+            </div>
+            <div class="bg-cardBg p-8 rounded-xl border-t-4 border-broncoBlue shadow-xl hover:-translate-y-1 transition transform duration-300">
+                <h4 class="text-2xl font-bold mb-3 text-white">Valorant</h4>
+                <p class="text-gray-400 leading-relaxed">A 5v5 tactical shooter where players choose "Agents" with unique abilities. One team tries to plant a bomb (the Spike), while the other defends. Precision aim, economy management, and strategic ability usage are key.</p>
+            </div>
+            <div class="bg-cardBg p-8 rounded-xl border-t-4 border-broncoOrange shadow-xl hover:-translate-y-1 transition transform duration-300">
+                <h4 class="text-2xl font-bold mb-3 text-white">Overwatch 2</h4>
+                <p class="text-gray-400 leading-relaxed">A vibrant 5v5 hero shooter requiring intense teamwork. Players select heroes from Tank, Damage, or Support categories to capture objectives or escort payloads across the map. Ultimate economy is the name of the game.</p>
+            </div>
+             <div class="bg-cardBg p-8 rounded-xl border-t-4 border-broncoBlue shadow-xl hover:-translate-y-1 transition transform duration-300">
+                <h4 class="text-2xl font-bold mb-3 text-white">League of Legends</h4>
+                <p class="text-gray-400 leading-relaxed">A 5v5 MOBA (Multiplayer Online Battle Arena) where teams race to destroy the opposing team's base (Nexus). It requires deep strategic knowledge, objective control, map awareness, and intense mechanical skill.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="writeups" class="bg-black py-20 border-t border-gray-800 pt-10">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="flex items-center gap-3 mb-8">
+                <i class="fa-solid fa-pen-nib text-3xl text-broncoBlue"></i>
+                <h3 class="text-4xl font-bold text-white">Weekly Recaps by Bryce</h3>
+            </div>
+            
+            <div class="space-y-8">
+                <article class="bg-cardBg p-8 rounded-xl shadow-2xl border-l-4 border-broncoBlue hover:bg-gray-800 transition duration-300">
+                    <h4 class="text-3xl font-bold text-white mb-2">Week 4: Broncos Sweep the Competition</h4>
+                    <p class="text-sm text-gray-500 font-semibold mb-4 uppercase tracking-wide">
+                        <i class="fa-regular fa-calendar mr-1"></i> August 30, 2026
+                    </p>
+                    <p class="text-gray-300 leading-relaxed mb-6">
+                        This weekend, Boise State Esports put on an absolute clinic. The Valorant roster locked down defense on Ascent, dropping only two rounds in the second half. Meanwhile, the Rocket League squad pulled off a massive reverse sweep in the finals against a heavy-hitting rival. Here is my full breakdown of how the Broncos dominated the server...
+                    </p>
+                    <a href="#" class="inline-flex items-center bg-broncoBlue hover:bg-blue-800 text-white font-bold py-2 px-6 rounded transition">
+                        Read Full Recap <i class="fa-solid fa-arrow-right ml-2"></i>
+                    </a>
+                </article>
+
+                <article class="bg-cardBg p-8 rounded-xl shadow-2xl border-l-4 border-broncoOrange hover:bg-gray-800 transition duration-300">
+                    <h4 class="text-3xl font-bold text-white mb-2">Week 3: Heartbreak in Overtime</h4>
+                    <p class="text-sm text-gray-500 font-semibold mb-4 uppercase tracking-wide">
+                        <i class="fa-regular fa-calendar mr-1"></i> August 23, 2026
+                    </p>
+                    <p class="text-gray-300 leading-relaxed mb-6">
+                        Despite a valiant effort from our Overwatch squad, a devastating ultimate combo from the opposing team in the final seconds of overtime halted our payload push on Route 66. It was a match of inches. Let's look at the stats, ultimate usage, and see where the series slipped away...
+                    </p>
+                    <a href="#" class="inline-flex items-center bg-broncoBlue hover:bg-blue-800 text-white font-bold py-2 px-6 rounded transition">
+                        Read Full Recap <i class="fa-solid fa-arrow-right ml-2"></i>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-darkBg text-center p-10 border-t border-gray-800">
+        <h2 class="text-2xl font-black text-white tracking-widest uppercase mb-4">
+            <span class="text-broncoOrange">Bryce</span> Jensen
+        </h2>
+        <p class="text-gray-500 max-w-md mx-auto mb-6">
+            Official Broadcast Portfolio for Boise State University Esports. Follow the action live on Twitch.
+        </p>
+        <div class="flex justify-center space-x-6 text-2xl text-gray-600">
+            <a href="https://www.twitch.tv/boisestate/schedule" target="_blank" class="hover:text-purple-500 transition"><i class="fa-brands fa-twitch"></i></a>
+            <a href="#" class="hover:text-blue-400 transition"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="hover:text-blue-600 transition"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p class="text-gray-700 text-sm mt-8">&copy; 2026 Bryce Jensen. Not officially affiliated with Boise State University Administration.</p>
+    </footer>
+
+</body>
+</html>
